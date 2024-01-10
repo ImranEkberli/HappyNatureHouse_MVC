@@ -1,0 +1,437 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HappyNatureHouse_MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HappyNatureHouse_MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\hover-style.css",
+      "PackagePath": "staticwebassets\\css\\hover-style.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\amenities-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\amenities-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\apple-favicon.png",
+      "PackagePath": "staticwebassets\\img\\apple-favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\air-conditioner-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\air-conditioner.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\air-conditioner.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\bathtub-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\bathtub.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\bathtub.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\call-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\call.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\call.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\call.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\kitchen-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\kitchen.png",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\kitchen.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\minibar-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\minibar.png",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\minibar.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\shield-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shield-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\shield.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shield.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\shield.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\shield.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\shower-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shower-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\shower.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shower.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\shower.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\shower.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\television-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\television-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\television.png",
+      "PackagePath": "staticwebassets\\img\\icon\\television.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\television.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\television.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\towel-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\towel-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\towel.png",
+      "PackagePath": "staticwebassets\\img\\icon\\towel.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\towel.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\towel.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\wifi-connection-signal-symbol.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi-connection-signal-symbol.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\wifi-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\icon\\wifi.png",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi.png"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room-slider\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room-slider\\room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room-slider\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room-slider\\room-4.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room-slider\\room-5.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room-slider\\room-6.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room\\room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room\\room-4.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\room\\room-5.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\slider\\header-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\slider\\header-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\slider\\header-slider-3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\js\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\royal-hotel.jpg",
+      "PackagePath": "staticwebassets\\royal-hotel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\vendor\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\vendor\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\jquery\\jquery-migrate.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-migrate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\stickyjs\\sticky.js",
+      "PackagePath": "staticwebassets\\vendor\\stickyjs\\sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\superfish\\hoverIntent.js",
+      "PackagePath": "staticwebassets\\vendor\\superfish\\hoverIntent.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\superfish\\superfish.js",
+      "PackagePath": "staticwebassets\\vendor\\superfish\\superfish.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\superfish\\superfish.min.js",
+      "PackagePath": "staticwebassets\\vendor\\superfish\\superfish.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\vendor\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\imran\\OneDrive\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\vendor\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HappyNatureHouse_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HappyNatureHouse_MVC.props",
+      "PackagePath": "build\\HappyNatureHouse_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HappyNatureHouse_MVC.props",
+      "PackagePath": "buildMultiTargeting\\HappyNatureHouse_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HappyNatureHouse_MVC.props",
+      "PackagePath": "buildTransitive\\HappyNatureHouse_MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

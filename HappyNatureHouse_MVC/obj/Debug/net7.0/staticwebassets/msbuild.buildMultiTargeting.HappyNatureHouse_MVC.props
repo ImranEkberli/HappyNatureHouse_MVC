@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HappyNatureHouse_MVC.props" />
+</Project>
