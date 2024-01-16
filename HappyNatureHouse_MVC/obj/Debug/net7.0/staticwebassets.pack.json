@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\HappyNatureHouse_MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\AdminLayout.css",
+      "PackagePath": "staticwebassets\\css\\AdminLayout.css"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\hover-style.css",
       "PackagePath": "staticwebassets\\css\\hover-style.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\style.css",
@@ -227,6 +235,10 @@
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\jqBootstrapValidation.min.js",
       "PackagePath": "staticwebassets\\js\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\layout.js",
+      "PackagePath": "staticwebassets\\js\\layout.js"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\main.js",

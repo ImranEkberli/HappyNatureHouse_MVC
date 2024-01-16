@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7BvDJdbwR8EC5V10HwCJjzW3iIOR59r+5xCY+lbuMuM=",
+  "Hash": "iKPL5tj2vSXs0fAdlEIx4lURVgFt3GMg0dsrJoAgL2Y=",
   "Source": "HappyNatureHouse_MVC",
   "BasePath": "_content/HappyNatureHouse_MVC",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HappyNatureHouse_MVC.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\AdminLayout.css",
+      "SourceId": "HappyNatureHouse_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\",
+      "BasePath": "_content/HappyNatureHouse_MVC",
+      "RelativePath": "css/AdminLayout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdminLayout.css"
+    },
+    {
       "Identity": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\hover-style.css",
       "SourceId": "HappyNatureHouse_MVC",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\hover-style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\layout.css",
+      "SourceId": "HappyNatureHouse_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\",
+      "BasePath": "_content/HappyNatureHouse_MVC",
+      "RelativePath": "css/layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\css\\style.css",
@@ -1001,6 +1035,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\layout.js",
+      "SourceId": "HappyNatureHouse_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\",
+      "BasePath": "_content/HappyNatureHouse_MVC",
+      "RelativePath": "js/layout.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\layout.js"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\js\\main.js",

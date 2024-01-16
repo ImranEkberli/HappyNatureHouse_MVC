@@ -444,3 +444,4 @@ C:\Users\Administrator\Desktop\HappyNatureHouse_MVC\HappyNatureHouse_MVC\obj\Deb
 C:\Users\Administrator\Desktop\HappyNatureHouse_MVC\HappyNatureHouse_MVC\obj\Debug\net7.0\HappyNatureHouse_MVC.pdb
 C:\Users\Administrator\Desktop\HappyNatureHouse_MVC\HappyNatureHouse_MVC\obj\Debug\net7.0\HappyNatureHouse_MVC.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\HappyNatureHouse_MVC\HappyNatureHouse_MVC\obj\Debug\net7.0\ref\HappyNatureHouse_MVC.dll
+C:\Users\Administrator\Desktop\HappyNatureHouse_MVC\HappyNatureHouse_MVC\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
