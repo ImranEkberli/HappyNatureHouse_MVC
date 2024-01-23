@@ -1,4 +1,5 @@
-﻿namespace HappyNatureHouse_MVC.Models
+﻿
+namespace HappyNatureHouse_MVC.Models
 {
     public class Cottage
     {
@@ -13,6 +14,8 @@
         public int GuestCount { get; set; }
         public int SingleBed { get; set; }
         public int DoubleBed { get; set; }
+        public DateTime CreateDate { get; set; }
+        public DateTime? ModifierDate { get; set; }
         public bool Status { get; set; }
         public List<CottageRoom>? CottageRooms { get; set; }
         public List<CottageImage>? CottageImages { get; set; }
