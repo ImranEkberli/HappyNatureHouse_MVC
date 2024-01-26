@@ -1,7 +1,7 @@
 ﻿using HappyNatureHouse_MVC.Areas.Admin.ViewModels;
+using HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs;
 using HappyNatureHouse_MVC.Data;
 using HappyNatureHouse_MVC.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
@@ -15,10 +15,38 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
         {
             _db = db;
         }
-
         public IActionResult List()
         {
-            return View();
+            try
+            {
+                var xxx = _db.Cottages.ToList();
+                List<CottageViewModel> cottages = _db.Cottages.Select(x => new CottageViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Title = x.Title,
+                    Description = x.Description,
+                    CreateDate = x.CreateDate,
+                    ModifierDate = x.ModifierDate,
+                    Price = x.Price,
+                    DiscountPrice = x.DiscountPrice,
+                    Image = x.Image,
+                    DoubleBed = x.DoubleBed,
+                    SingleBed = x.SingleBed,
+                    RoomCount = x.RoomCount,
+                    GuestCount = x.GuestCount,
+                    Status = x.Status
+
+                }).ToList();
+                return View(cottages);
+            }
+            catch (Exception ex)
+            {
+
+                return View(ex.Message);
+            }
+     
+       
         }
         public IActionResult Add()
         {

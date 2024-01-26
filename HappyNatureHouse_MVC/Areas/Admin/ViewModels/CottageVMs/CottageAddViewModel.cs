@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels
+namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
 {
     public class CottageAddViewModel
     {

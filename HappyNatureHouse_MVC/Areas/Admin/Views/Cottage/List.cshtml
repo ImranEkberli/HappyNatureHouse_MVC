@@ -1,9 +1,63 @@
 ﻿
+
 @{
-     ViewData["Title"] = "List";
-    // Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "List";
+    int sayi = 1;
 }
-
-<h1>Koteclər</h1>
-
-
+@model List<CottageViewModel>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Kotec məlumatları</h2>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-info" role="alert">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th scope="col">Sayı</th>
+                    <th scope="col">Kotecin Adı</th>
+                    <th scope="col">Başlıq</th>
+                    <th scope="col">Məzmun</th>
+                    <th scope="col">Qiymət</th>
+                    <th scope="col">Endirimli qiymət</th>
+                    <th scope="col">OtaqSayı</th>
+                    <th scope="col">QonaqSayı</th>
+                    <th scope="col">İkiliÇarpayı</th>
+                    <th scope="col">TəkÇarpayı</th>
+                    <th scope="col">Yaratma Tarixi</th>
+                    <th scope="col">Dəyişmə Tarixi</th>
+                    <th scope="col">Şəkil</th>
+                    <th scope="col">Statusu</th>
+                    <th scope="col">Dəyişikliklər</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model )
+                {
+                    <tr>
+                        <th scope="row">sayi++</th>
+                        <td>@item.Name</td>
+                        <td>@item.Title</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price</td>
+                        <td>@item.DiscountPrice</td>
+                        <td>@item.RoomCount</td>
+                        <td>@item.GuestCount</td>
+                        <td>@item.DoubleBed</td>
+                        <td>@item.SingleBed</td>
+                        <td>@item.CreateDate</td>
+                        <td>@item.ModifierDate is not null ? @item.ModifierDate.ToString() : "nhgng" </td>
+                        <td>@item.Status</td>
+                        <td>
+                            <a><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a><i class="fa-solid fa-trash"></i></a>
+                        </td>                                    
+                    </tr>
+                }           
+            </tbody>
+        </table>
+    </div>
+</div>
