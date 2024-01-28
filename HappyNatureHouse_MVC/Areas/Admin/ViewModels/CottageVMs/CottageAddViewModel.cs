@@ -7,14 +7,14 @@ namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
     {
         [Display(Name = "Kotecin Adı :")]
         [Required(ErrorMessage = "Kotecin Adı boş olmamalıdır.")]
-        [MinLength(6, ErrorMessage = "Kotecin Adı ən azı 2 karakter olmalıdır.")]
+        [MinLength(2, ErrorMessage = "Kotecin Adı ən azı 2 karakter olmalıdır.")]
         [MaxLength(30, ErrorMessage = "Kotecin Adı ən çox 50 karakter olmalıdır.")]
         public string Name { get; set; } = null!;
 
 
         [Display(Name = "Qısa Məzmun :")]
         [Required(ErrorMessage = "Qısa Məzmun boş olmamalıdır.")]
-        [MinLength(6, ErrorMessage = "Kotecin Adı ən azı 2 karakter olmalıdır.")]
+        [MinLength(2, ErrorMessage = "Kotecin Adı ən azı 2 karakter olmalıdır.")]
         [MaxLength(30, ErrorMessage = "Kotecin Adı ən çox 50 karakter olmalıdır.")]
         public string Title { get; set; } = null!;
 
@@ -22,7 +22,6 @@ namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
 
         [Display(Name = "Məzmunu :")]
         [Required(ErrorMessage = "Məzmunu boş olmamalıdır.")]
-        [MinLength(6, ErrorMessage = "Kotecin Adı ən azı 2 karakter olmalıdır.")]
         [MaxLength(4000, ErrorMessage = "Kotecin Adı ən çox 4000 karakter ola bilər.")]
         [StringLength(int.MaxValue)]
         public string Description { get; set; } = null!;
