@@ -14,7 +14,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]s
+        [ValidateAntiForgeryToken]
         public IActionResult Login(AdminLoginViewModel request)
         {
             //if (true)
@@ -41,6 +41,14 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
         {
             await HttpContext.SignOutAsync("Authtoken");
             return RedirectToAction("Login", "Auth");
+        }
+        public IActionResult Register()
+        {
+            string email = "imran.ekberli@gmail.com";
+            string password = "imran____@@@@!!!!";
+
+
+            return RedirectToAction("Login","Auth");
         }
     }
 }
