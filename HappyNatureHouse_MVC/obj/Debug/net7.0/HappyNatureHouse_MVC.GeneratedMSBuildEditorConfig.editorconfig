@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\imran\OneDrive\Desktop\HappyNatureHouse_MVC\HappyNatureHouse_MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/imran/OneDrive/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/imran/OneDrive/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Cottage/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ290dGFnZVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
