@@ -12,8 +12,8 @@ namespace HappyNatureHouse_MVC.Models
         public string Image { get; set; } = null!;
         public int RoomCount { get; set; }
         public int GuestCount { get; set; }
-        public int SingleBed { get; set; }
-        public int DoubleBed { get; set; }
+        public int? SingleBed { get; set; }
+        public int? DoubleBed { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? ModifierDate { get; set; }
         public bool Status { get; set; }

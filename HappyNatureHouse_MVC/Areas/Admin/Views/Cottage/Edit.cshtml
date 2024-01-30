@@ -1,19 +1,24 @@
 ﻿@using HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs;
-
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "Edit";
 }
-@model CottageAddViewModel
+
+@model CottageEditViewModel
 @section Scripts{
     @await Html.PartialAsync("_ValidationScriptsPartial")
 }
 
 <div class="row">
-    <div class="col-md-6 offset-md-3">
-        <h2>Kotec əlavə olunması</h2>
-
+    <div class="col-md-12">
+        <h2>Kotecdə Dəyişiklik olunması</h2>
+        @if (TempData["FailedOperation"] != null)
+        {
+            <div style=" width: 40%;font-size: x-large;" class="alert alert-danger" role="alert">
+                @TempData["FailedOperation"]
+            </div>
+        }
         <div asp-validation-summary=ModelOnly class="alert alert-danger" role="alert"></div>
-        <form asp-area="Admin" asp-controller="Cottage" asp-action="Add" method="post" enctype="multipart/form-data" asp-antiforgery="true">
+        <form method="post" asp-area="Admin" asp-controller="Cottage" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data" asp-antiforgery="true">
             <div class="row mb-3">
                 <label asp-for="Name" class="col-md-3 col-form-label"></label>
                 <div class="col-md-8">
@@ -50,11 +55,21 @@
                 </div>
             </div>
             <div class="row mb-3">
+                <div class="col-md-8">
+                    <h2>Hal-hazırki Şəkil: </h2>
+                </div>             
+                <div style="padding: 0;" class="col-md-2">
+                    <img style="width: 100%; height: auto; display: block;"  src="/uploads/@Model.Picture" alt="@Model.Name">
+                    <input asp-for="@Model.Picture" type="hidden"/>
+                </div>
+            </div>
+            <div class="row mb-3">
                 <label asp-for="Image" class="col-md-3 col-form-label"></label>
                 <div class="col-md-8">
                     <input asp-for="Image" class="form-control">
                     <span class="text-danger" asp-validation-for="Image"></span>
                 </div>
+
             </div>
             <div class="row mb-3">
                 <label asp-for="RoomCount" class="col-md-3 col-form-label"></label>
@@ -84,10 +99,10 @@
                     <span class="text-danger" asp-validation-for="DoubleBed"></span>
                 </div>
             </div>
-            <div class="row mb-3">            
+            <div class="row mb-3">
                 <div class="col-md-8">
                     <label asp-for="Status" class="col-md-3 col-form-label"></label>
-                    <input asp-for="Status" type="checkbox">                    
+                    <input asp-for="Status" type="checkbox">
                 </div>
             </div>
             <div class="row mb-3">
@@ -98,36 +113,3 @@
         </form>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

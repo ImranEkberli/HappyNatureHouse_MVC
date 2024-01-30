@@ -1,0 +1,61 @@
+﻿@using HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs;
+@{
+    ViewData["Title"] = "CottagePictures";
+    int sayi = 1;
+}
+
+@model CottagePictureViewModel
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <h1>Kotec Şəkilləri</h1>
+            <a class="btn btn-primary" href="/admin/cottage/@Model.CottageId/pictureadd">Şəkil Əlavə Et</a>
+        </div>
+
+        <table class="table table-bordered border-primary">
+            <thead>
+                <tr>
+                    <th scope="col">Sayı</th>
+                    <th scope="col">Şəkillər</th>
+                    <th scope="col">Silmək</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CottageImages)
+                {
+                    <tr>
+                        <th scope="row">@(sayi++)</th>
+                        <td>
+                            <div class="row">
+                                <div class="col-12">
+                                    <img style="width: 100%; height: auto; display: block;" src="/uploads/@item.Image">
+                                </div>
+                            </div>
+                        </td>
+                        <td>              
+                            <form method="post" asp-asp-area="Admin" asp-controller="Cottage" asp-action="PictureDelete" asp-route-id="@item.Id" asp-route-cottageid="@Model.CottageId" asp-antiforgery="true">
+                                <button type="button" class="delete btn btn-primary m-2" title="Sil"><i style="font-size:24px" class="fa fa-trash-o"></i></button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+
+        </table>
+    </div>
+</div>
+@section Scripts{
+    <script type="text/javascript">
+        $(".delete").on("click", function (event) {
+            let text = "Pozmaq istədiyinə əminsən ?";
+            if (confirm(text) == true) {
+                $('.delete').removeAttr("type").attr("type", "submit")
+            } else {
+                event.preventDefault();
+            }
+        });
+
+    </script>
+}

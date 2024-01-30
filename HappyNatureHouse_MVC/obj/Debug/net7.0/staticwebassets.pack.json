@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\fontawesome\\all.min.css",
+      "PackagePath": "staticwebassets\\fontawesome\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\fontawesome\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\fontawesome\\fontawesome.min.css"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\img\\about\\about-1.jpg",
       "PackagePath": "staticwebassets\\img\\about\\about-1.jpg"
     },
@@ -487,6 +495,22 @@
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\royal-hotel.jpg",
       "PackagePath": "staticwebassets\\royal-hotel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\uploads\\Cinar2024312903nn4477.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Cinar2024312903nn4477.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\uploads\\Cinar2024322903nn5325.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Cinar2024322903nn5325.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\uploads\\Fisdiq2024042906nn5368.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Fisdiq2024042906nn5368.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\uploads\\Kuknar2024292903nn5220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Kuknar2024292903nn5220.jpg"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\HappyNatureHouse_MVC\\HappyNatureHouse_MVC\\wwwroot\\vendor\\animate\\animate.css",

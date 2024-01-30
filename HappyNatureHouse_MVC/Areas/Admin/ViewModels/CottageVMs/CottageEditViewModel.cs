@@ -1,11 +1,11 @@
-﻿
-using Azure.Core;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
 {
-    public class CottageAddViewModel
+    public class CottageEditViewModel
     {
+        public int Id { get; set; }
+
         [Display(Name = "Kotecin Adı :")]
         [Required(ErrorMessage = "Kotecin Adı boş olmamalıdır.")]
         [MinLength(2, ErrorMessage = "Kotecin Adı ən azı 2 karakter olmalıdır.")]
@@ -31,8 +31,8 @@ namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
         [Display(Name = "Qiyməti :")]
         [Required(ErrorMessage = "Qiyməti boş olmamalıdır.")]
         [RegularExpression(@"^\d+(\.\d{1,2})?$", ErrorMessage = "Yalnız qiymət daxil edə bilərsiz.")]
-        [Range(0.01, 10000.00,ErrorMessage ="Qiymət 0.01 ilə 10000.00 arası ola bilər.")]
-     
+        [Range(0.01, 10000.00, ErrorMessage = "Qiymət 0.01 ilə 10000.00 arası ola bilər.")]
+
         public decimal Price { get; set; }
 
 
@@ -42,10 +42,10 @@ namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
         public decimal? DiscountPrice { get; set; }
 
 
-        [Display(Name = "Şəkil :")]
-        [Required(ErrorMessage = "Şəkil boş olmamalıdır.")]
-        [DataType(DataType.Upload,ErrorMessage ="Yalnız fayl yükləmək olar.")]
-        public IFormFile Image { get; set; } = null!;
+        [Display(Name = "Şəkili Dəyiş:")]
+        [DataType(DataType.Upload, ErrorMessage = "Yalnız şəkil yükləmək olar.")]
+        public IFormFile? Image { get; set; }
+        public string Picture { get; set; } = null!;
 
 
         [Display(Name = "Otaq sayı :")]
@@ -67,11 +67,10 @@ namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
 
         [Display(Name = "İkili çarpayı :")]
         [Range(1, 4, ErrorMessage = "İkili çarpayı 1 ilə 4 arası ola bilər.")]
-        public int? DoubleBed { get; set; } 
+        public int? DoubleBed { get; set; }
 
 
         [Display(Name = "Statusu :")]
         public bool Status { get; set; }
-
     }
 }

@@ -1,26 +1,40 @@
-﻿
-
+﻿@using HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs;
 @{
     ViewData["Title"] = "List";
     int sayi = 1;
 }
 @model List<CottageViewModel>
+<style>
+    img {
+        max-width: 100%;
+    }
+</style>
 <div class="row">
     <div class="col-md-12">
-        <h2>Kotec məlumatları</h2>
+        <div class="row">
+            <h2>Kotec məlumatları</h2>
+            <a class="btn btn-primary" href="/admin/cottage/add">Kotec Əlavə Et</a>
+        </div>
+        
         @if (TempData["SuccessMessage"] != null)
         {
-            <div class="alert alert-info" role="alert">
+            <div style="width: 40%; font-size: x-large;" class="alert alert-info" role="alert">
                 @TempData["SuccessMessage"]
             </div>
         }
-        <table class="table table-bordered ">
+        @if (TempData["FailedOperation"] != null)
+        {
+            <div style=" width: 40%;font-size: x-large;" class="alert alert-danger" role="alert">
+                @TempData["FailedOperation"]
+            </div>
+        }
+        <table class="table table-bordered " style="
+               margin-left: -150px;">
             <thead>
                 <tr>
                     <th scope="col">Sayı</th>
                     <th scope="col">Kotecin Adı</th>
-                    <th scope="col">Başlıq</th>
-                    <th scope="col">Məzmun</th>
+                    <th scope="col">Başlıq və Məzmun</th>
                     <th scope="col">Qiymət</th>
                     <th scope="col">Endirimli qiymət</th>
                     <th scope="col">OtaqSayı</th>
@@ -29,35 +43,112 @@
                     <th scope="col">TəkÇarpayı</th>
                     <th scope="col">Yaratma Tarixi</th>
                     <th scope="col">Dəyişmə Tarixi</th>
-                    <th scope="col">Şəkil</th>
+                    <th scope="col" class="col-2" style="min-width:150px;">Şəkil</th>
+                    <th scope="col" style="min-width:300px;">Otaq Şəkilləri</th>
                     <th scope="col">Statusu</th>
                     <th scope="col">Dəyişikliklər</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model )
+                @foreach (var item in Model)
                 {
                     <tr>
-                        <th scope="row">sayi++</th>
+                        <th scope="row">@(sayi++)</th>
                         <td>@item.Name</td>
-                        <td>@item.Title</td>
-                        <td>@item.Description</td>
+                        <td>
+                            <!-- Button to Open the Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#model_@item.Id">
+                                Başlıq və Məzmun
+                            </button>
+
+                            <!-- The Modal -->
+                            <div class="modal" id="model_@item.Id">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">@item.Title</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            @item.Description
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
                         <td>@item.Price</td>
                         <td>@item.DiscountPrice</td>
                         <td>@item.RoomCount</td>
                         <td>@item.GuestCount</td>
                         <td>@item.DoubleBed</td>
                         <td>@item.SingleBed</td>
-                        <td>@item.CreateDate</td>
-                        <td>@item.ModifierDate is not null ? @item.ModifierDate.ToString() : "nhgng" </td>
-                        <td>@item.Status</td>
+                        <td>@item.CreateDate.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td class="d-flex align-items-center justify-content-center">@(item.ModifierDate is not null ? item.ModifierDate?.ToString("dd.MM.yyyy HH:mm") : Html.Raw("<span><i style=\"font-size:24px; color: blue;\" class=\"fa fa-minus\"></i></span>"))</td>
+                        <td style="border: 1px solid #000; padding: 5px;">
+
+                            <div class="row" @* style="max-width: 100%; overflow: hidden;" *@>
+                                <div class="col-12">
+                                    <img style="width: 100%; height: auto; display: block;" src="/uploads/@item.Image" alt="@item.Name">
+                                </div>
+
+                            </div>
+                        </td>                      
+                        <td style="width:100%;">
+                            <div class="container">
+                                <div class="row">  
+                                    @foreach (var picture in item.CottagePicture.CottageImages)
+                                    {
+                                          <div class="col-3" style="padding:1px;"><img src="/uploads/@picture.Image"></div>
+                                    }
+                             
+                                    <a href="/admin/cottage/@item.Id/pictures" class="edit btn btn-primary m-2" title="Dəyiş"><span>Redaktə Et</span><i style="font-size:24px" class="fa fa-edit"></i></a>
+
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="d-flex align-items-center justify-content-center">
+                            @if (item.Status)
+                            {
+                                <span><i style="font-size:24px;color:green;" class="fa fa-plus"></i></span>
+                            }
+                            else
+                            {
+                                <span><i style="font-size:24px;color:red;" class="fa fa-minus"></i></span>
+                            }
+                        </td>
                         <td>
-                            <a><i class="fa-solid fa-pen-to-square"></i></a>
-                            <a><i class="fa-solid fa-trash"></i></a>
-                        </td>                                    
+                            <a href="/admin/cottage/edit/@item.Id" class="edit btn btn-primary m-2" title="Dəyiş"><i style="font-size:24px" class="fa fa-edit"></i></a>
+                            <form method="post" asp-asp-area="Admin" asp-controller="Cottage" asp-action="Delete" asp-route-id="@item.Id" asp-antiforgery="true">
+                                <button type="button" class="delete btn btn-primary m-2" title="Sil"><i style="font-size:24px" class="fa fa-trash-o"></i></button>
+                            </form>
+                        </td>
                     </tr>
-                }           
+                }
             </tbody>
         </table>
     </div>
 </div>
+@section Scripts{
+    <script type="text/javascript">
+        $(".delete").on("click", function (event) {
+            let text = "Pozmaq istədiyinə əminsən ?";
+            if (confirm(text) == true) {
+                $('.delete').removeAttr("type").attr("type", "submit")
+            } else {
+                event.preventDefault();
+            }
+        });
+
+    </script>
+}

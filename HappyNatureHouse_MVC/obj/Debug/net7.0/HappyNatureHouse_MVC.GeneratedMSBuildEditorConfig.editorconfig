@@ -20,8 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ290dGFnZVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Administrator/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Cottage/CottagePictures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ290dGFnZVxDb3R0YWdlUGljdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Cottage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ290dGFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrator/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Cottage/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ290dGFnZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Cottage/PictureAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ290dGFnZVxQaWN0dXJlQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrator/Desktop/HappyNatureHouse_MVC/HappyNatureHouse_MVC/Areas/Admin/Views/Home/Index.cshtml]

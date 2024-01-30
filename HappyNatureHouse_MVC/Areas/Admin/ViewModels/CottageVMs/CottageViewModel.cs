@@ -1,4 +1,6 @@
-﻿namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
+﻿using HappyNatureHouse_MVC.Models;
+
+namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
 {
     public class CottageViewModel
     {
@@ -11,10 +13,11 @@
         public string Image { get; set; } = null!;
         public int RoomCount { get; set; }
         public int GuestCount { get; set; }
-        public int SingleBed { get; set; }
-        public int DoubleBed { get; set; }
+        public int? SingleBed { get; set; }
+        public int? DoubleBed { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? ModifierDate { get; set; }
         public bool Status { get; set; }
+        public CottagePictureViewModel CottagePicture { get; set; } = new CottagePictureViewModel();
     }
 }

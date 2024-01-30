@@ -1,0 +1,31 @@
+﻿@using HappyNatureHouse_MVC.Areas.Admin.ViewModels.ImageVMs;
+@{
+    ViewData["Title"] = "PictureAdd";
+}
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+@model PictureAddViewModel
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2>Şəkil əlavə olunması</h2>
+
+        <div asp-validation-summary=ModelOnly class="alert alert-danger" role="alert"></div>
+        <form asp-area="Admin" asp-controller="Cottage" asp-action="Add" method="post" enctype="multipart/form-data" asp-antiforgery="true">
+   
+            <div class="row mb-3">
+                <label asp-for="Image" class="col-md-3 col-form-label"></label>
+                <div class="col-md-8">
+                    <input asp-for="Image" class="form-control">
+                    <span class="text-danger" asp-validation-for="Image"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-12 offset-md-3">
+                    <button type="submit" class="btn btn-primary">Əlavə et</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
