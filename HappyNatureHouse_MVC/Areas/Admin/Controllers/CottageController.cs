@@ -222,7 +222,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
                 _db.Cottages.Remove(cottage);
                 await _db.SaveChangesAsync();
 
-                ImageUploadEx.DeleteImage(cottage.Image,cottageImages.Select(x=>x.Image).ToList());
+                ImageUploadEx.DeleteImage(new List<string> { cottage.Image},cottageImages.Select(x=>x.Image).ToList());
                 
                 TempData["SuccessMessage"] = "Kotec və şəkilləri uğurla silinidi.";
                 return RedirectToAction("List");
@@ -294,7 +294,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
                     TempData["FailedOperation"] = "Düzgün əməliyyat yerinə yetirilmədi.";
                     return RedirectToAction("List");
                 }
-                ImageUploadEx.DeleteImage(image.Image);
+                ImageUploadEx.DeleteImage(new List<string> { image.Image });
                 _db.CottageImages.Remove(image);
                 await _db.SaveChangesAsync();
 

@@ -1,0 +1,45 @@
+﻿@using HappyNatureHouse_MVC.Areas.Admin.ViewModels.AuthVMs;
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+@model AdminLoginViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Happy Nature House</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-3 m-5">
+                <h2>Giriş</h2>
+                <div asp-validation-summary=ModelOnly class="alert alert-danger" role="alert"></div>
+                <form method="post" asp-area="Admin" asp-controller="Auth" asp-action="Login" asp-antiforgery="true">
+                    <div class="form-group">
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="E-mail addresi daxil edin">
+                        <span class="text-danger" asp-validation-for="Email"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password"></label>
+                        <input asp-for="Password" class="form-control" placeholder="Şifrəni daxil edin">
+                        <span class="text-danger" asp-validation-for="Password"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary m-2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+  
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

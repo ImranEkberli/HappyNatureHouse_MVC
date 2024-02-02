@@ -12,5 +12,6 @@ namespace HappyNatureHouse_MVC.Data
         public DbSet<Cottage> Cottages { get; set; }
         public DbSet<CottageImage> CottageImages { get; set; }
         public DbSet<CottageRoom> CottageRooms { get; set; }
+        public DbSet<AdminUser> AdminUsers { get; set; }
     }
 }

@@ -15,29 +15,19 @@ namespace HappyNatureHouse_MVC.Extensions
             }
             return filename;
         }
-        public static void DeleteImage(string imagefile,List<string> filenames)
-        {
-            List<string> strings = new List<string>();  
-            strings.AddRange(filenames);
-            strings.Add(imagefile);
-            foreach (var filename in strings)
-            {
-                if (Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", filename)))
-                {
-                    Directory.Delete(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", filename));
-                }
-            }
-          
-
-        }
-        public static void DeleteImage(List<string> filenames)
+ 
+        public static void DeleteImage(params List<string>[] filenames)
         {
             foreach (var filename in filenames)
             {
-                if (Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", filename)))
+                foreach (var item in filename)
                 {
-                    Directory.Delete(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", filename));
+                    if (Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", item)))
+                    {
+                        Directory.Delete(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", item));
+                    }
                 }
+
             }
         }
     }
