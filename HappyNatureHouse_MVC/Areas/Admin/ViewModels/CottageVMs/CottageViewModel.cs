@@ -1,4 +1,5 @@
-﻿using HappyNatureHouse_MVC.Models;
+﻿using HappyNatureHouse_MVC.Areas.Admin.ViewModels.ImageVMs;
+using HappyNatureHouse_MVC.Models;
 
 namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
 {
@@ -18,6 +19,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.ViewModels.CottageVMs
         public DateTime CreateDate { get; set; }
         public DateTime? ModifierDate { get; set; }
         public bool Status { get; set; }
-        public CottagePictureViewModel CottagePicture { get; set; } = new CottagePictureViewModel();
+     // public CottagePictureViewModel? CottagePicture { get; set; }
+        public List<PictureViewModel>? CottageImages { get; set; } 
     }
 }

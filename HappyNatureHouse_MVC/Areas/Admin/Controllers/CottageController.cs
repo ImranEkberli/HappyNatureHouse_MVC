@@ -20,6 +20,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
             _db = db;
         }
         public IActionResult List()
+        
         {
             try
             {
@@ -40,11 +41,14 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
                     RoomCount = x.RoomCount,
                     GuestCount = x.GuestCount,
                     Status = x.Status,
-                    CottagePicture = x.CottageImages!.Select(y => new CottagePictureViewModel
-                    {
-                        CottageImages = x.CottageImages!.Select(z=>new PictureViewModel { Id = z.Id,Image = z.Image}).ToList(),
-                        CottageId = y.CottageId
-                    }).First() 
+                    CottageImages = x.CottageImages != null ? x.CottageImages.Select(z => new PictureViewModel { Id = z.Id, Image = z.Image }).ToList() : new List<PictureViewModel>()
+                    //CottagePicture = x.CottageImages !=  null ?
+                    //x.CottageImages.Select(y => new CottagePictureViewModel
+                    //{
+                    //    CottageImages = y.Cottage.CottageImages!.Select(z => new PictureViewModel { Id = z.Id, Image = z.Image }).ToList(),
+                    //    CottageId = y.CottageId
+                    //}
+                    //).First() : new CottagePictureViewModel()
 
                 }).ToList();
                 return View(cottages);
@@ -240,7 +244,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
             List<CottagePictureViewModel> images = _db.CottageImages.Where(x => x.CottageId == cottageid).Select(z => new CottagePictureViewModel
             {
                 CottageId = z.CottageId,
-                CottageImages = z.Cottage.CottageImages!.Select(x=> new PictureViewModel() { Id = x.Id,Image = x.Image}).ToList(),
+                CottageImages = z != null ? z.Cottage.CottageImages!.Select(x=> new PictureViewModel() { Id = x.Id,Image = x.Image}).ToList() : new List<PictureViewModel>()
             }).ToList();
             return View(images);
         }
@@ -307,5 +311,6 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
             // return Redirect($"admin/cottage/{cottageid}/pictures");
             return RedirectToAction("cottagepictures","cottage",cottageid);
         }
+
     }
 }

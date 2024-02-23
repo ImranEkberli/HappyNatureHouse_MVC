@@ -1,4 +1,5 @@
-﻿using CryptoHelper;
+﻿
+using CryptoHelper;
 using HappyNatureHouse_MVC.Areas.Admin.ViewModels.AuthVMs;
 using HappyNatureHouse_MVC.Data;
 using HappyNatureHouse_MVC.Models;
@@ -20,7 +21,7 @@ namespace HappyNatureHouse_MVC.Areas.Admin.Controllers
             _db = db;
         }
 
-        public async IActionResult Login()
+        public IActionResult Login()
         {
             return View();
         }
